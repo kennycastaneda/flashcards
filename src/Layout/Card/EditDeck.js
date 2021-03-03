@@ -11,7 +11,7 @@ function EditDeck() {
     id: null,
   };
   const [formData, setFormData] = useState(initialFormState);
-  const [error, setError] = useState(undefined);
+
   const history = useHistory();
   const abortController = new AbortController();
   const [thisDeck, setThisDeck] = useState([]);
@@ -31,7 +31,6 @@ function EditDeck() {
       try {
         updateDeck(formData, abortController.signal);
       } catch (error) {
-        setError(error);
         history.push(`/${error}`);
       }
     }
@@ -50,8 +49,7 @@ function EditDeck() {
           cards: deckInfo.cards,
         });
       } catch (error) {
-        setError(error);
-        history.push(`/error/${error}`);
+        history.push(`/${error}`);
       }
     }
     fetchDeckInfo(deckId);

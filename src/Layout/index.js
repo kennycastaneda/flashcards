@@ -14,10 +14,6 @@ import { useHistory, Route, Switch } from "react-router-dom";
 function Layout() {
   const [decks, setDecks] = useState([]);
   const history = useHistory();
-  const handleCreateDeck = () => {
-    history.push("/decks/new");
-  };
-
   useEffect(() => {
     const abortController = new AbortController();
     async function fetchListDecks() {
@@ -40,7 +36,7 @@ function Layout() {
       <div className="container">
         <Switch>
           <Route exact path="/">
-            <CreateDeckButton handleCreateDeck={handleCreateDeck} />
+            <CreateDeckButton />
             <DeckList decks={decks} />
           </Route>
           <Route path="/decks/:deckId/cards/new">
@@ -65,7 +61,6 @@ function Layout() {
             <NotFound />
           </Route>
         </Switch>
-        {/* TODO: Implement the screen starting here */}
       </div>
     </div>
   );

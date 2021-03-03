@@ -19,9 +19,7 @@ function Study() {
         setThisDeck(deckInfo);
         setNumberOfCards(deckInfo.cards.length);
       } catch (error) {
-        console.log(numberOfCards);
-        console.log(error);
-        //history.push(`/${error}`);
+        history.push(`/${error}`);
       }
     }
     fetchReadDeck(deckId);

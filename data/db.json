@@ -14,11 +14,6 @@
       "name": "make a new one",
       "description": "help me plsaeaea",
       "id": 3
-    },
-    {
-      "name": "what's going on",
-      "description": "why won't it work",
-      "id": 4
     }
   ],
   "cards": [
@@ -75,6 +70,24 @@
       "back": "the end",
       "deckId": 1,
       "id": 12
+    },
+    {
+      "front": "front side",
+      "back": "back side",
+      "deckId": 3,
+      "id": 13
+    },
+    {
+      "front": "More",
+      "back": "Cards",
+      "deckId": 3,
+      "id": 14
+    },
+    {
+      "front": "Number 3",
+      "back": "Back of 3",
+      "deckId": 3,
+      "id": 15
     }
   ]
 }

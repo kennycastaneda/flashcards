@@ -4,7 +4,7 @@ import { createCard, readDeck, updateCard, readCard } from "../../utils/api";
 
 function Card() {
   const { deckId, cardId } = useParams();
-  const [card, setCard] = useState({});
+
   const [thisDeck, setThisDeck] = useState([]);
   const history = useHistory();
   const initialFormState = {
@@ -57,7 +57,7 @@ function Card() {
     async function fetchCardInfo(cardId) {
       try {
         const card = await readCard(cardId, abortController.signal);
-        setCard(card);
+
         setFormData({
           ...formData,
           id: card.id,

@@ -1,6 +1,11 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 
-function CreateDeckButton({ handleCreateDeck }) {
+function CreateDeckButton() {
+  const history = useHistory();
+  const handleCreateDeck = () => {
+    history.push("/decks/new");
+  };
   return (
     <div className="container-fluid text-right">
       <button

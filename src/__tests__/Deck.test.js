@@ -32,6 +32,7 @@ describe("Decks", () => {
 
     const history = createMemoryHistory();
     history.push("/decks/3");
+    console.log(history);
     render(
       <Router history={history}>
         <App />
