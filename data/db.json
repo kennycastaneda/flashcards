@@ -1,0 +1,80 @@
+{
+  "decks": [
+    {
+      "name": "React Router 1 change",
+      "description": "1 React Router is a collection of navigational components that compose declaratively with your application. Changesss Make edits",
+      "id": 1
+    },
+    {
+      "name": "React Router 2",
+      "description": "2 React Router is a collection of navigational components that compose declaratively with your application.",
+      "id": 2
+    },
+    {
+      "name": "make a new one",
+      "description": "help me plsaeaea",
+      "id": 3
+    },
+    {
+      "name": "what's going on",
+      "description": "why won't it work",
+      "id": 4
+    }
+  ],
+  "cards": [
+    {
+      "front": "Differentiate between Real DOM and Virtual DOM.1 1",
+      "back": "1 1Virtual DOM updates are faster but do not directly update the HTML",
+      "deckId": 1,
+      "id": 1
+    },
+    {
+      "front": "Differentiate between Real DOM and Virtual DOM. 1 2 sss",
+      "back": "1 2 Virtual DOM updates are faster but do not directly update the HTML",
+      "deckId": 1,
+      "id": 2
+    },
+    {
+      "id": 1,
+      "front": "Differentiate between Real DOM and Virtual DOM. 2 1",
+      "back": "2 1Virtual DOM updates are faster but do not directly update the HTML",
+      "deckId": 2
+    },
+    {
+      "id": 2,
+      "front": "Differentiate between Real DOM and Virtual DOM.2 2",
+      "back": "2 2Virtual DOM updates are faster but do not directly update the HTML",
+      "deckId": 2
+    },
+    {
+      "id": 3,
+      "front": "Differentiate between Real DOM and Virtual DOM.2 3",
+      "back": "2 3Virtual DOM updates are faster but do not directly update the HTML",
+      "deckId": 2
+    },
+    {
+      "id": 4,
+      "front": "Front side of card",
+      "back": "Back side of card",
+      "deckId": 2
+    },
+    {
+      "front": "Front side of card3",
+      "back": "Back side of card3",
+      "deckId": 2,
+      "id": 5
+    },
+    {
+      "front": "Here's the front",
+      "back": "Here's the back",
+      "deckId": 2,
+      "id": 7
+    },
+    {
+      "front": "here's to",
+      "back": "the end",
+      "deckId": 1,
+      "id": 12
+    }
+  ]
+}
