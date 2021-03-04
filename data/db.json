@@ -17,13 +17,13 @@
       "id": 2,
       "front": "Add More Cards",
       "back": "Flip Through The Cards",
-      "deckId": 2
+      "deckId": 1
     },
     {
       "front": "Delete Decks And Cards You No Longer Need Or Have Mastered",
       "back": "Make Sure You're Ready To Delete.",
       "deckId": 1,
-      "id": 12
+      "id": 3
     }
   ]
 }
