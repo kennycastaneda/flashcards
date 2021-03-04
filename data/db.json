@@ -1,93 +1,29 @@
 {
   "decks": [
     {
-      "name": "React Router 1 change",
-      "description": "1 React Router is a collection of navigational components that compose declaratively with your application. Changesss Make edits",
+      "name": "Flashcards Web App",
+      "description": "Create Flashcards For Studying!",
       "id": 1
-    },
-    {
-      "name": "React Router 2",
-      "description": "2 React Router is a collection of navigational components that compose declaratively with your application.",
-      "id": 2
-    },
-    {
-      "name": "make a new one",
-      "description": "help me plsaeaea",
-      "id": 3
     }
   ],
   "cards": [
     {
-      "front": "Differentiate between Real DOM and Virtual DOM.1 1",
-      "back": "1 1Virtual DOM updates are faster but do not directly update the HTML",
-      "deckId": 1,
-      "id": 1
-    },
-    {
-      "front": "Differentiate between Real DOM and Virtual DOM. 1 2 sss",
-      "back": "1 2 Virtual DOM updates are faster but do not directly update the HTML",
-      "deckId": 1,
-      "id": 2
-    },
-    {
       "id": 1,
-      "front": "Differentiate between Real DOM and Virtual DOM. 2 1",
-      "back": "2 1Virtual DOM updates are faster but do not directly update the HTML",
-      "deckId": 2
+      "front": "Add More Decks",
+      "back": "Endless Possibility Of Topics",
+      "deckId": 1
     },
     {
       "id": 2,
-      "front": "Differentiate between Real DOM and Virtual DOM.2 2",
-      "back": "2 2Virtual DOM updates are faster but do not directly update the HTML",
+      "front": "Add More Cards",
+      "back": "Flip Through The Cards",
       "deckId": 2
     },
     {
-      "id": 3,
-      "front": "Differentiate between Real DOM and Virtual DOM.2 3",
-      "back": "2 3Virtual DOM updates are faster but do not directly update the HTML",
-      "deckId": 2
-    },
-    {
-      "id": 4,
-      "front": "Front side of card",
-      "back": "Back side of card",
-      "deckId": 2
-    },
-    {
-      "front": "Front side of card3",
-      "back": "Back side of card3",
-      "deckId": 2,
-      "id": 5
-    },
-    {
-      "front": "Here's the front",
-      "back": "Here's the back",
-      "deckId": 2,
-      "id": 7
-    },
-    {
-      "front": "here's to",
-      "back": "the end",
+      "front": "Delete Decks And Cards You No Longer Need Or Have Mastered",
+      "back": "Make Sure You're Ready To Delete.",
       "deckId": 1,
       "id": 12
-    },
-    {
-      "front": "front side",
-      "back": "back side",
-      "deckId": 3,
-      "id": 13
-    },
-    {
-      "front": "More",
-      "back": "Cards",
-      "deckId": 3,
-      "id": 14
-    },
-    {
-      "front": "Number 3",
-      "back": "Back of 3",
-      "deckId": 3,
-      "id": 15
     }
   ]
 }
